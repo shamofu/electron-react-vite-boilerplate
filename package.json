@@ -9,7 +9,7 @@
     "start": "run-p -r renderer:watch main:start",
     "release": "run-s renderer:build \"electron:build {@}\" --",
     "test": "run-s renderer:build \"test:jest {@}\" --",
-    "main:start": "nodemon --watch app/main/main.ts --exec \"electron .\"",
+    "main:start": "nodemon --watch app/main/main.js --exec \"electron .\"",
     "renderer:watch": "vite app/renderer --port 1124",
     "renderer:build": "vite build app/renderer --base=./",
     "electron:build": "electron-builder --x64 --publish=never",
