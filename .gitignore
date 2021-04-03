@@ -1,0 +1,8 @@
+# outputs
+/app/dist
+/app/renderer/dist
+/release
+/coverage
+
+# dependencies
+/node_modules
