@@ -11,7 +11,7 @@
     "test": "run-s renderer:build \"test:jest {@}\" --",
     "main:start": "nodemon --watch app/main/main.js --exec \"electron .\"",
     "renderer:watch": "vite app/renderer --port 1124",
-    "renderer:build": "vite build app/renderer --base=./",
+    "renderer:build": "vite build app/renderer --base ./",
     "electron:build": "electron-builder --x64 --publish=never",
     "test:jest": "jest"
   },
