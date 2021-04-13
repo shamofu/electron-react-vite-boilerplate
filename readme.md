@@ -1,4 +1,4 @@
-# Electron-React-Vite-Boilerplate
+# Electron + React + Vite Boilerplate
 [![Dependencies Status](https://img.shields.io/david/shamofu/electron-react-vite-boilerplate.svg?style=flat-square)](https://david-dm.org/shamofu/electron-react-vite-boilerplate)
 [![DevDependencies Status](https://img.shields.io/david/dev/shamofu/electron-react-vite-boilerplate.svg?style=flat-square)](https://david-dm.org/shamofu/electron-react-vite-boilerplate?type=dev)
 
