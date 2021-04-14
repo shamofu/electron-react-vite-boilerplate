@@ -4,6 +4,7 @@
   "repository": "https://github.com/shamofu/electron-react-vite-boilerplate.git",
   "author": "shamofu",
   "license": "MIT",
+  "private": "true",
   "main": "app/main/main.js",
   "scripts": {
     "start": "run-p -r renderer:watch main:start",
